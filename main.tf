@@ -51,7 +51,7 @@ resource "aws_instance" "web" {
               systemctl restart apache2
               EOF
  tags = {
-    Name = "Demo-Web"
+    Name = "tag-change"
   }
 }
 
